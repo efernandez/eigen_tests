@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>eigen_tests</name>
+  <version>1.0.0</version>
+  <description>Eigen tests</description>
+
+  <maintainer email="enrique.fernandez.perdomo@gmail.com">Enrique Fernandez</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>eigen</depend>
+
+  <export>
+    <!-- Specify that this is not really a Catkin package-->
+    <build_type>cmake</build_type>
+  </export>
+</package>
+
